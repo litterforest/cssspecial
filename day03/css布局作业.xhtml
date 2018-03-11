@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>css布局作业</title>
+    <style type="text/css" >
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #page{
+            margin: 0px auto;
+            width: 970px;
+
+        }
+
+        .header{
+            height: 103px;
+        }
+
+        .header .logo{
+            float: left;
+            width: 277px;
+            height: 103px;
+            background-color: red;
+        }
+        .header .language{
+            float: right;
+            width: 137px;
+            height: 49px;
+            background-color: greenyellow;
+            margin-bottom: 8px;
+        }
+        .header .nav{
+            float: right;
+            width: 679px;
+            height: 46px;
+            background-color: greenyellow;
+        }
+        .content{
+            height: 435px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .content .contentLeft{
+            float: left;
+            width: 310px;
+            height: 435px;
+            background-color: gold;
+            margin-right: 10px;
+        }
+
+        .content .contentRight{
+            float: left;
+            width: 650px;
+            height: 435px;
+        }
+
+        .content .contentRight .maincontent {
+            width: 650px;
+            height: 400px;
+        }
+
+        .content .contentRight .maincontent .maincontentLeft {
+            float: left;
+            width: 450px;
+            height: 400px;
+        }
+
+        .content .contentRight .maincontent .maincontentLeft .new1{
+            width: 450px;
+            height: 240px;
+            background-color: navy;
+            margin-bottom: 10px;
+        }
+
+        .content .contentRight .maincontent .maincontentLeft .new2{
+            width: 450px;
+            height: 110px;
+            background-color: navy;
+            margin-bottom: 10px;
+        }
+
+        .content .contentRight .maincontent .maincontentLeft .new3{
+            width: 450px;
+            height: 30px;
+            background-color: navy;
+        }
+
+        .content .contentRight .maincontent .maincontentRight {
+            float: left;
+            width: 190px;
+            height: 400px;
+            background-color: purple;
+            margin-left: 10px;
+        }
+
+        .content .contentRight .links {
+            width: 650px;
+            height: 25px;
+            background-color: green;
+            margin-top: 10px;
+        }
+
+        .footer{
+            height: 35px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="header">
+            <div class="logo"></div>
+            <div class="language"></div>
+            <div class="nav"></div>
+
+        </div>
+
+        <div class="content">
+            <div class="contentLeft"></div>
+            <div class="contentRight">
+                <div class="maincontent">
+                    <div class="maincontentLeft">
+                        <div class="new1"></div>
+                        <div class="new2"></div>
+                        <div class="new3"></div>
+                    </div>
+                    <div class="maincontentRight"></div>
+                </div>
+                <div class="links"></div>
+            </div>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

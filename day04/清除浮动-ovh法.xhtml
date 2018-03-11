@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>清除浮动-OVH法</title>
+    <style type="text/css" >
+        *{
+            margin: 0;
+            padding: 0;;
+        }
+
+        li{
+            float: left;
+            width: 100px;
+            background-color: gold;
+            margin-right: 10px;
+            text-align: center;
+            list-style: none;
+        }
+
+        #box1{
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box1">
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>设计模式</li>
+        </ul>
+
+    </div>
+
+    <div id="box2" >
+        <ul>
+            <li>英语水平</li>
+            <li>面试技巧</li>
+            <li>学习方法</li>
+        </ul>
+
+    </div>
+
+
+</body>
+</html>
